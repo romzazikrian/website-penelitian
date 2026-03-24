@@ -609,8 +609,8 @@
 }
 .logo-navbar {
     height: 40px;
-    width: auto;
-    max-width: 160px;
+    max-width: 150px;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -619,4 +619,17 @@
         height: 35px;
         max-width: 140px;
     }
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.logo-navbar {
+    height: 40px;
 }
