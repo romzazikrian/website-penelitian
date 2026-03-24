@@ -607,3 +607,9 @@
     padding: 6px 18px;
     font-size: 14px;
 }
+.logo-navbar {
+    height: 40px;
+    width: auto;
+    max-width: 160px;
+    object-fit: contain;
+}
